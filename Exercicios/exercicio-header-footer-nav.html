@@ -1,0 +1,65 @@
+<!-- 
+O objetivo deste exercício é criar um header e um footer para um site. O header deve incluir um menu de navegação com 8 itens diferentes, e o footer deve conter um breve menu com pelo menos 3 itens. Ambos os menus devem ser criados usando elementos HTML semânticos apropriados.
+
+1. Crie um novo arquivo HTML e nomeie-o como "exercicio-header-footer-nav.html".
+2. Utilize a estrutura básica do HTML para criar uma nova página.
+3. Adicione um <header> à sua página.
+4. Dentro do <header>, inclua um elemento para o logotipo (que pode ser um texto simples) e um menu de navegação.
+5. O menu de navegação do header deve ter 8 itens. Você pode nomeá-los como quiser (por exemplo: Home, Sobre, Serviços, Portfólio, Blog, Contato, FAQ, Login).
+6. Adicione um <footer> à sua página. Lembrando que deve conter uma seção <main> com algum conteúdo.
+7. Dentro do <footer>, inclua um breve menu de navegação com pelo menos 3 itens (por exemplo: Política de Privacidade, Termos de Serviço, Contato).
+8. Use elementos HTML semânticos para estruturar ambos os menus.
+9. Adicione comentários explicando suas escolhas de elementos semânticos.
+
+-->
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="#" content="#">
+        <title>Exercício header, footer e nav</title>
+    </head>
+    <!-- 
+        header: cabeçario da página com meta-informações;
+        a href: para vincular com outra página/documento;
+        ul: definindo lista com o conteúdo de navegação.
+        li: item da lista.
+        -->
+    <body>
+        <header>
+            <a href="#" id="logo">Meu HTML</a>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Portfólio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+    </body>
+    <!-- 
+    footer: rodapé da página
+    main: conteúdo principal do bloco
+    nav: bloco de navegação
+    ul: definindo lista com o conteúdo de navegação.
+    li: item da lista.
+    -->
+    <footer>
+        <main>
+            <p>Copyright 2023</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Serviço</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </main>
+    </footer>
+</html>
