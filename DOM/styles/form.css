@@ -1,0 +1,10 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 10px auto;
+}
+
+.form-group {
+    padding: 5px;
+}

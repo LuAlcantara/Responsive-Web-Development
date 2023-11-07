@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url(form.css);
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    flex: auto;
+    padding: 30px;
+}
+
+.header {
+    background: #40F55B;
+    text-align: center;
+    box-shadow: 2px 2px 2px silver;
+
+}
+
+.footer {
+    background: #888;
+    text-align: center;
+}
+
